@@ -2,16 +2,16 @@
     font-family: Norse-Bold;
     src: url(./assets/Norse-Bold.otf);
   }
-body{
-    margin:0;
-}
+
+
 .content {
-    display: flex;
+      display: flex;
     align-items: stretch;
     justify-content: center;
 
 }
 
+/* Header Area */
 header{
     flex: 1 1 auto;
     height: 100%;
@@ -54,3 +54,13 @@ main{
 a, a:visited {
     color: white;
 }
+
+/* Body area */
+
+body{
+    margin:0;
+    background-color: aliceblue;
+}
+
+
+
